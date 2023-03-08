@@ -6,3 +6,7 @@ memorization.
 - adding follow up resources for each video.
 
 [WilliamFiset YouTube Channel](https://www.youtube.com/@WilliamFiset-videos)
+
+## Table of Contents
+
+- [Graph Theory](graphtheory/README.md)
