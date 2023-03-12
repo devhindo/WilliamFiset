@@ -5,3 +5,5 @@
 [#1](videos/1.md) : an intuitive overview and motivation for the topic.
 
 [#2](videos/2.md) : introduction to the concept of graphs using visuals and real-life use cases.
+
+[#3](videos/3.md) : common graph theory Problems.
