@@ -7,3 +7,5 @@
 [#2](videos/2.md) : introduction to the concept of graphs using visuals and real-life use cases.
 
 [#3](videos/3.md) : common graph theory Problems.
+
+[#4](videos/4.md) : Depth First search for traversing graphs.
