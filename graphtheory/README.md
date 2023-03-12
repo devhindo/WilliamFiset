@@ -8,4 +8,4 @@
 
 [#3](videos/3.md) : common graph theory Problems.
 
-[#4](videos/4.md) : Depth First search for traversing graphs.
+[#4](videos/4/4.md) : Depth First search Algorithm for traversing graphs.
