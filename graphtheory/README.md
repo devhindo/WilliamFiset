@@ -4,8 +4,10 @@
 
 [#1](videos/1/README.md) : an intuitive overview and motivation for the topic.
 
-[#2](videos/2/2.md) : introduction to the concept of graphs using visuals and real-life use cases.
+[#2](videos/2/README.md) : introduction to the concept of graphs using visuals and real-life use cases.
 
-[#3](videos/3/3.md) : common graph theory Problems.
+[#3](videos/3/README.md) : common graph theory Problems.
 
-[#4](videos/4/4.md) : Depth First search Algorithm for traversing graphs.
+[#4](videos/4/README.md) : Depth First search Algorithm for traversing graphs.
+
+[#5](videos/5/README.md) : Breadth first search algorithm for traversing graphs.
