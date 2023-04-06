@@ -11,3 +11,5 @@
 [#4](videos/4/README.md) : Depth First search Algorithm for traversing graphs.
 
 [#5](videos/5/README.md) : Breadth first search algorithm for traversing graphs.
+
+[#6](videos/6/README.md) : BFS shortest path on a grid.
