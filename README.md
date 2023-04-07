@@ -11,3 +11,4 @@ memorization.
 ## Table of Contents
 
 - [Graph Theory](graphtheory/README.md)
+- [Union Find [Disjoint Set]](unionfind/README.md)
