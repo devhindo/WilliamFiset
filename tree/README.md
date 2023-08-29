@@ -7,11 +7,3 @@
 [2. Beginner tree algorithms](videos/2.%20Beginner%20tree%20algorithms/README.md) : solving 2 beginner problems.
 
 [3. Rooting a tree](videos/3.%20Rooting%20a%20tree/README.md) :  
-
-[#4](videos/4/README.md) : 
-
-[#5](videos/5/README.md) : 
-
-[#6](videos/6/README.md) : 
-
-[#15](videos/15/README.md) : 
