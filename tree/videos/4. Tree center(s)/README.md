@@ -35,8 +35,8 @@ def treeCenters(g):
     leaves = []
     # loop throught all nodes and compute the degree
     # counting the number of edges incident to each node
-    for node in g:
-        degree[node] = len(g[node])
+    for node,edges in g:
+        degree[node] = len(edges)
         # if degree[node] == 0 means single node tree
         # if degree[node] == 1 means leaf node
         if degree[node] <= 1:
