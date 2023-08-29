@@ -12,3 +12,5 @@ memorization.
 
 - [Graph Theory](graphtheory/README.md)
 - [Union Find [Disjoint Set]](unionfind/README.md)
+- [Dynamic Programming](dp/README.md)
+- [Tree Algorithms](tree/README.md)
