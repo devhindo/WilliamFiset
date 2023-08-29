@@ -4,9 +4,9 @@
 
 [1. Introduction to tree algorithms](videos/1/README.md) : an intuitive overview and motivation for the topic.
 
-[2. Beginner tree algorithms](videos/2/README.md) : 
+[2. Beginner tree algorithms](videos/2.%20Beginner%20tree%20algorithms/README.md) : solving 2 beginner problems.
 
-[#3](videos/3/README.md) : 
+[3. Rooting a tree](videos/3.%20Rooting%20a%20tree/README.md) :  
 
 [#4](videos/4/README.md) : 
 
