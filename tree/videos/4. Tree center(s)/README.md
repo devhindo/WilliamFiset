@@ -70,3 +70,7 @@ def treeCenters(g):
     # the remaining nodes are the centers of the tree
     return leaves
 ```
+
+## 4.3. practice problems
+
+- [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
