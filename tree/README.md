@@ -6,4 +6,6 @@
 
 [2. Beginner tree algorithms](videos/2.%20Beginner%20tree%20algorithms/README.md) : solving 2 beginner problems.
 
-[3. Rooting a tree](videos/3.%20Rooting%20a%20tree/README.md) :  
+[3. Rooting a tree](videos/3.%20Rooting%20a%20tree/README.md) :  how to root a directed adjacency graph that can be a tree?
+
+[4. Tree center(s)](videos/4.%20Tree%20center(s)/README.md) :
