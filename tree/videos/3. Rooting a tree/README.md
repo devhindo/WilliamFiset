@@ -38,7 +38,7 @@ class Node:
     Node parent 
 
     # list of pointers to child Nodes.
-    Node[] children
+    children = []
 
     def __init__(self, id, parent, children):
         self.id = id
