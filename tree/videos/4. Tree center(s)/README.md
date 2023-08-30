@@ -74,3 +74,5 @@ def treeCenters(g):
 ## 4.3. practice problems
 
 - [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
+  `you can implement this algorithm to solve this problem, but there is a simpler solution`
+  
