@@ -2,7 +2,7 @@
 
 [youtube-playlist](https://youtube.com/playlist?list=PLDV1Zeh2NRsDfGc8rbQ0_58oEZQVtvoIc&si=8E38jDEZ0503KeBs)
 
-[1. Introduction to tree algorithms](videos/1/README.md) : an intuitive overview and motivation for the topic.
+[1. Introduction to tree algorithms](videos/1.%20Introduction%20to%20tree%20algorithms/README.md) : an intuitive overview and motivation for the topic.
 
 [2. Beginner tree algorithms](videos/2.%20Beginner%20tree%20algorithms/README.md) : solving 2 beginner problems.
 
