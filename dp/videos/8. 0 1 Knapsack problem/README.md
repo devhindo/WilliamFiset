@@ -21,5 +21,6 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
 ![Alt text](image.png)
 
 - in the context of the knapsack problem we can think of a raw in this table as representing individual items, and the columns as representing various capacities or maximum capacities our knapsack can have
+
 - we are going to solve the problem by considering the first item then figuring out all the best possible values we can achieve for each capacity, and after that considering the second item and reusing information we know from the first item to formulate a combined best value for those two items, and then incorporating a third and a fourth item and etc.
-- what we want to do for each column in the current row is to figure out 
+- what we want to do for each column in the current row is to figure out if we should or should not include the current item
