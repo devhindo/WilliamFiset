@@ -29,6 +29,16 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
 
 ### How to fill the table?
 
+The table is initialized with zeros. Each cell in the table represents the maximum value that can be obtained with the given capacity (column index) and the given number of items (row index). The zeros represent that no item has been selected yet, so the value is zero.
+
+We fill the table row by row and column by column. Each row represents an item from the list, and each column represents a capacity from 0 to the maximum capacity. For each cell, we consider two options: including the current item and excluding the current item.
+
+If the weight of the current item is less than or equal to the current capacity, we calculate the value obtained by including the current item. This is done by adding the value of the current item to the value obtained with the remaining capacity (current capacity - weight of the current item) from the previous row (i.e., excluding the current item). If the weight of the current item is more than the current capacity, we cannot include the current item.
+
+We update the cell's value with the maximum value obtained from the two options. This ensures that we always have the maximum value that can be obtained with the given capacity and the given number of items.
+
+The final solution is obtained from the bottom-right cell of the table. This cell represents the maximum value that can be obtained with the maximum capacity and all items. To identify the items that make up this maximum value, we start from this cell and move upwards. If the value in the current cell is the same as the value in the cell above it, it means that the current item was not included in the maximum value. So, we move to the cell above. If the value in the current cell is more than the value in the cell above it, it means that the current item was included in the maximum value. So, we include this item in the solution and move to the cell that represents the remaining capacity (current capacity - weight of the current item). We repeat this process until we reach the top of the table or a cell with value 0.
+
 
 
 ### we now know the best value we can achieve (on the bottom right corner of the table), but which items do we actually need to select?
@@ -79,4 +89,3 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
         items.reverse()
 
         return dp[n][c], items
-```
