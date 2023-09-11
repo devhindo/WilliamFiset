@@ -41,7 +41,7 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
 ## code
 
 ```python
-    def knapsack(c, w, v)
+    def knapsack(c, w, v):
     """
         c: capacity of the knapsack
         w: the weight of the items
@@ -49,4 +49,34 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
     """
     n = len(w)
     dp = [[0 for _ in range(c + 1)] for _ in range(n + 1)]
+
+    for i in range(1, n + 1):
+        for j in range(1, c + 1):
+            
+            # get the the value and weight of the item
+            w, v = w[i - 1], v[i - 1]
+
+            # for each knapsack size
+            for j in range(1, c + 1):
+                
+                # consider not picking this element
+                # intially set that as the best current value
+                dp[i][j] = dp[i - 1][j]
+                # then we check if we can update to a better value by including the current item
+                if j >= w and dp[i - 1][j - w] + v > dp[i][j]:
+                    dp[i][j] = dp[i - 1][j - w] + v
+
+        ######################################
+        # checking what items are selected
+        items = []
+        sz = c
+        for i in range(n, 0, -1):
+            if dp[i][sz] != dp[i - 1][sz]:
+                items.append(i)
+                sz -= w[i - 1]
+        
+        # put the items in the natural order
+        items.reverse()
+
+        return dp[n][c], items
 ```
