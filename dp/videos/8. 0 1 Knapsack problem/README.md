@@ -30,6 +30,9 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
 
 ### How to fill the table?
 
+```text
+    there is a confusion in the video on what is the purpose of the blue (long) arrow
+```
 
 
 ### we now know the best value we can achieve (on the bottom right corner of the table), but which items do we actually need to select?
@@ -81,3 +84,9 @@ Given a set of objects which have both a value and a weight $(Vi, Wi)$ what is t
 
         return dp[n][c], items
 ```
+
+## more resources
+
+- [
+CS Dojo video
+](https://youtu.be/xOlhR_2QCXY?si=Utu58e3E0yYLNBWk)
