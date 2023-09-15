@@ -8,6 +8,8 @@ memorization.
 
 [WilliamFiset YouTube Channel](https://www.youtube.com/@WilliamFiset-videos)
 
+[WilliamFiset GitHub Repo](https://github.com/williamfiset/Algorithms)
+
 ## Table of Contents
 
 - [Graph Theory](graphtheory/README.md)
