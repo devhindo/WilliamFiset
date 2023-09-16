@@ -10,10 +10,13 @@ pdf() {
         echo "$name.pdf exists"
     else
         wget "$link"
-        mv *.pdf "$name/$name.pdf"
+        mv *.pdf "$name/"
     fi
 }
 
 # Tree Algorithms
 
 pdf "tree" "https://raw.githubusercontent.com/williamfiset/Algorithms/master/slides/graphtheory/tree_algorithm_slides.pdf"
+
+
+# Dynamic Programming
