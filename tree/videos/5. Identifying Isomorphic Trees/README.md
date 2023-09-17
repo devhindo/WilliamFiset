@@ -55,4 +55,65 @@
 
 ## 5.5. The AHU Algorithm
 
+## 5.5.1. Intro
+
 - It's a celver serialization technique for representing a tree as a unique string.
+- unlike many tree isomorphism invariants and heuristics, AHU is able to capture `complete history` of a tree's `degree spectrum` and a structure ensuring a deterministic method of checking for a tree isomorphisms.
+
+## 5.5.2. Steps
+
+> assign all leaf nodes Knuth tuples; `()`
+> every time you move up a layer the labels of the previous subtrees get sorted lexicographically and wrapped in brackets
+> you cannot process a node until you have processed all its children
+
+![Alt text](image.png)
+
+## 5.5.3. Code
+
+```python
+  # class difinition
+
+  class TreeNode
+
+  # Returns whether two trees are isomorphic
+  # parameters tree1 and tree2 are undirected trees
+  # sorted as adjacency lists
+
+  def isIsomorphic(t1, t2):
+
+    t1Centers = treeCenters(t1)
+    t2Centers = treeCenters(t2)
+
+    t1Rooted = rootTree(t1, t1Centers[0])
+
+    for center in tree2Centers:
+
+      t2Rooted = rootTree(t2, center)
+      t2Encoded = encode(t2Rooted)
+
+      if t1Encoded == t2Encoded:
+        return True
+
+      return False
+
+  def encode(n: TreeNode):
+
+    if not n:
+        return ""
+    
+    code = []
+
+    for c in n.children:
+        code.append(encode(c))
+
+    code.sort()
+
+    serial = ""
+
+    for c in code:
+        serial += c
+    
+
+    
+    return "(" + serial + ")"
+```
