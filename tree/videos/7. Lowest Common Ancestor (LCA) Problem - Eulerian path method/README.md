@@ -25,3 +25,18 @@
 
 - this method can answer LCA queries in $O(1)$ time with $O(nlogn)$ pre-processing when using a `Spare Table` to do the RMQs
 - however, the pre-processing can be reduced to $O(n)$ with the Farach-Colton and Bender optimization
+- you can do this $LCA(10,LCA(12,16))$ to find the LCA of more that 2 nodes
+
+## 7.4. The Algorithm
+
+### 7.4.1. House Keeping stuff
+
+- make sure the tree is rooted
+- ensure that all nodes are `uniquely indexed` in some way so that we can reference them later
+  - one easy way to index each node is by assigning each node a unique id between $[0, n-1]$
+
+### 7.4.2. Eulerian Tour
+
+- what's an eulerian tour? it's a path that visits every edge in a graph exactly once
+- the eulerian tour method begins by finding an eulerian tour of the edges in a rooted tree
+- rather than doing the euler tour 

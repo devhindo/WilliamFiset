@@ -1,11 +1,4 @@
-# Tree difinition
+i = 0
 
-class TreeNode:
-    """
-        tree class
-    """
-    id = None
-
-    parent = None
-
-    children = []
+for j in range(1,1):
+    print(j)
